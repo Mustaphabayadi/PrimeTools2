@@ -1,0 +1,93 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f5f7fa;
+    color: #1E1E1E;
+}
+
+header {
+    background: #1E63FF;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 50px;
+}
+
+header .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.hero {
+    text-align: center;
+    padding: 80px 20px;
+    background: #ffffff;
+}
+
+.hero h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 18px;
+    color: #555;
+}
+
+section {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.tools-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 30px;
+}
+
+.tools-container button {
+    padding: 15px 25px;
+    background: #1E63FF;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.tools-container button:hover {
+    background: #144fc1;
+}
+
+.ia-output {
+    margin-top: 20px;
+    padding: 15px;
+    background: #e8e8e8;
+    border-radius: 6px;
+    min-height: 50px;
+    text-align: left;
+}
+
+footer {
+    background: #1E1E1E;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
